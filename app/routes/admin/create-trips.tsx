@@ -145,7 +145,7 @@ const CreateTrips = ({ loaderData }: Route.ComponentProps) => {
                   handleChange("country", e.value);
                 }
               }}
-              allowFiltering
+              allowFiltering={true}
               filtering={(e) => {
                 const query = e.text.toLowerCase();
 
